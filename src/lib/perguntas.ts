@@ -1,5 +1,6 @@
 // Linguagens: A = Palavras de Afirmação, B = Tempo de Qualidade,
 //             C = Receber Presentes, D = Atos de Serviço, E = Toque Físico
+// Fonte: Teste oficial do livro "As Cinco Linguagens do Amor" - Gary Chapman
 
 export type Linguagem = 'A' | 'B' | 'C' | 'D' | 'E'
 
@@ -45,15 +46,15 @@ export const perguntas: Pergunta[] = [
   {
     id: 5,
     opcoes: [
-      { texto: 'Sinto-me amado(a) quando alguém que amo me rodeia com o braço', linguagem: 'E' },
-      { texto: 'Sinto-me amado(a) quando recebo um presente de alguém que amo', linguagem: 'C' },
+      { texto: 'Sinto-me amado(a) quando alguém que amo ou admiro me rodeia com o braço', linguagem: 'E' },
+      { texto: 'Sinto-me amado(a) quando recebo um presente de alguém que amo e admiro', linguagem: 'C' },
     ],
   },
   {
     id: 6,
     opcoes: [
       { texto: 'Gosto de sair com amigos e entes queridos', linguagem: 'B' },
-      { texto: 'Gosto de bater palma com palma ou ficar de mãos dadas com pessoas especiais', linguagem: 'E' },
+      { texto: 'Gosto de bater palma com palma ou ficar de mãos dadas com pessoas especiais para mim', linguagem: 'E' },
     ],
   },
   {
